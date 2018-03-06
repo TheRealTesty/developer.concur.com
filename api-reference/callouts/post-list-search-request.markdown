@@ -9,7 +9,7 @@ layout: reference
 application/xml
 
 ## Request URI
-The Fetch List callout sends the attendee information to a URI for the application connector, which can be in a custom location for each client. The standard location is:
+The Fetch List callout sends login user ID and other configured data to the /v1.2/fetch endpoint on the application connector server. The standard location is:
 
     https://{servername}/concur/list/v1.2/fetch
 
